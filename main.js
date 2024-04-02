@@ -32,6 +32,8 @@ console.log("este es solo un comentario para el archivo main de la carpeta PAGIN
 let lista=[];
 let lista2=["a","b","c"];
 let producto=document.getElementById("input1");
+console.log("el producto=document.getElementById es:");
+console.log(producto);
 let boton=document.querySelector("button");
 let boton2=document.getElementById("boton1");
 let boton3=document.getElementById("boton3");
@@ -62,7 +64,7 @@ boton.addEventListener("click",function(evt){
         //     console.log(lista2[i]);
         // }
 
-})
+});
 boton2.addEventListener("click",function(evt){
     evt.preventDefault();
     let creacion1=document.createElement("h1");
