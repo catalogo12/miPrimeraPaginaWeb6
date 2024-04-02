@@ -39,7 +39,7 @@ let boton=document.querySelector("button");
 let boton2=document.getElementById("boton1");
 let boton3=document.getElementById("boton3");
 let eleccion=document.getElementById("input3");
-console.log(eleccion);
+// console.log(eleccion);
 
 let precio=document.getElementById("input2");
 boton.addEventListener("click",function(evt){
