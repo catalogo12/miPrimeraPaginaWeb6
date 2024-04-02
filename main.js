@@ -28,7 +28,7 @@
     
 //     console.log(objeto1);
 // })
-console.log("este es solo un comentario para el archivo main de la carpeta PAGINAWEB6JOSE")
+console.log("este es solo un comentario para el archivo main de la carpeta PAGINAWEB6JOSE");
 let lista=[];
 let lista2=["a","b","c"];
 let producto=document.getElementById("input1");
