@@ -48,11 +48,11 @@ boton.addEventListener("click",function(evt){
     productoObjeto.productoLlave=producto.value;
     productoObjeto.precioLlave=precio.value;
     console.log("tratando de imprimir");
-    console.log(productoObjeto);
+    // console.log(productoObjeto);
     lista.push(productoObjeto);
-    console.log(lista);
+    // console.log(lista);
   
-  console.log(lista);
+//   console.log(lista);
         
     
         // for(let i=0;i<lista.length;i++){
@@ -73,7 +73,7 @@ boton2.addEventListener("click",function(evt){
   document.body.appendChild(creacion1);
     for(i=0;i<lista.length;i++){
         let creacion2=document.createElement("h2");
-        console.log(lista[i]);
+        // console.log(lista[i]);
         creacion2.textContent=lista[i].precioLlave;
         document.body.appendChild(creacion2);    
     }
@@ -90,7 +90,7 @@ boton3.addEventListener("click",function(evt){
         if(lista[i].productoLlave==eleccion.value){
             creacion3.textContent=lista[i].precioLlave;
             document.body.appendChild(creacion3);
-            console.log()
+            // console.log()
 
         }
     }
